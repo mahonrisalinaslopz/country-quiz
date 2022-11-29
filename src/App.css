@@ -1,0 +1,150 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url('./assets/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.country-quiz {
+  min-width: 464px;
+}
+
+.country-quiz__header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.country-quiz__heading {
+  font-size: 2.25rem;
+  color: #fff;
+  margin: 0;
+}
+
+.country-quiz__quiz-icon {
+  position: absolute;
+  right: 0;
+}
+
+.quiz {
+  background: #fff;
+  border-radius: 1.5rem;
+  width: 100%;
+}
+
+.quiz__container {
+  padding: 2rem;
+  padding-top: 4.75rem;
+}
+
+.quiz__flag {
+  max-width: 84px;
+}
+
+.quiz__question {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.quiz__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.quiz__options-container {
+  width: 100%;
+}
+
+.quiz__option {
+  color: rgba(96, 102, 208, 0.7);
+  background: #ffffff;
+  border: 2px solid currentColor;
+  border-radius: 12px;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 1.625rem;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.quiz__option:hover,
+.quiz__next-btn:hover,
+.results__try-again-btn:hover {
+  background: #f9a826;
+  color: #fff;
+  border-color: #f9a826;
+  cursor: pointer;
+}
+
+.quiz__option:disabled {
+  cursor: default;
+}
+
+.incorrect,
+.incorrect:hover,
+.incorrect:focus {
+  background: #ea8282;
+  color: #fff;
+  border-color: #ea8282;
+}
+
+.correct,
+.correct:hover,
+.correct:focus {
+  background: #60bf88;
+  color: #fff;
+  border-color: #60bf88;
+}
+
+.quiz__next-btn,
+.results__try-again-btn {
+  color: rgba(96, 102, 208, 0.7);
+  background: #ffffff;
+  border: 2px solid currentColor;
+  border-radius: 12px;
+  padding: 1rem 2.25rem;
+  margin-bottom: 1.625rem;
+
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.results__container {
+  padding: 2rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.results__subheading {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.results__number {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.results__body {
+  margin-bottom: 4.5rem;
+}
