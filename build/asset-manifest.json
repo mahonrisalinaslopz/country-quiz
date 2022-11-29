@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7be686c.css",
+    "main.js": "/static/js/main.aa7a96ff.js",
+    "static/media/undraw_winners_ao2o 2.svg": "/static/media/undraw_winners_ao2o 2.d76bfdf87016eda38fd439d929ce0371.svg",
+    "static/media/background.png": "/static/media/background.41dbc5504a105eae7176.png",
+    "static/media/undraw_adventure_4hum 1.svg": "/static/media/undraw_adventure_4hum 1.182b6171bba7c99e5444500b4daec361.svg",
+    "index.html": "/index.html",
+    "main.d7be686c.css.map": "/static/css/main.d7be686c.css.map",
+    "main.aa7a96ff.js.map": "/static/js/main.aa7a96ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7be686c.css",
+    "static/js/main.aa7a96ff.js"
+  ]
+}
